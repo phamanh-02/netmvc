@@ -1,4 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using DemoMVC.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Service
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
